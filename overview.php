@@ -276,11 +276,11 @@
                     </div>
                   </div>
                   <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 resource-data">
-                    <div class="overview-cards resource-section-card">
-                      <div class="all-cards-resource client-review client">
-                        <a href="" class="card-linked">Orders to be delivered</a>
+                    <a href="order.php" style="text-decoration:none;color:white" class="card-linked"><div class="overview-cards resource-section-card ">
+                      <div class="all-cards-resource client-review">
+                        Orders to be delivered
                       </div>
-                    </div>
+                    </div></a>
                   </div>
 
                 </div>
