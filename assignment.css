@@ -1,0 +1,1079 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "loto", sans-serif;
+}
+
+body {
+    background-color: #EDECEC;
+}
+
+.sidenav {
+    position: absolute;
+    width: 225px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: green;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.logohead {
+    text-align: flex;
+}
+
+.heading {
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 71px;
+    font-size: 28px;
+    font-weight: 200px;
+}
+
+.plogo {
+    position: absolute;
+    float: left;
+    width: 65px;
+    height: 65px;
+    top: 38px;
+    left: 8px;
+}
+
+.dashboard {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 10px;
+    top: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.overview {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 70px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.assignment {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 70px;
+    top: 210px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.writer {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 70px;
+    top: 240px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.chart {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 70px;
+    top: 270px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.payment {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 70px;
+    top: 300px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.other {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 10px;
+    top: 370px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Setting {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 70px;
+    top: 420px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logout {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 70px;
+    top: 450px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*-------------------main--------*/
+
+.quizze {
+    width: 98%;
+    height: 50px;
+    border-bottom: 1px solid #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    margin-left: 27px;
+    margin-top: 0px;
+    display: flex;
+    background-color: white;
+}
+
+.search-bar {
+    width: 20%;
+    max-width: 150px;
+    height: 10px;
+    margin-top: 7px;
+    background-color: #EDECEC;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 320px;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    color: rgb(4, 9, 14);
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.search-bar button {
+    position: absolute;
+    border: 0;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    right: 230px;
+}
+
+.bell {
+    margin-left: 40px;
+    height: 30px;
+    width: 60px;
+}
+
+.profile {
+    height: 30px;
+    width: 60px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+.person {
+    width: 300px;
+    margin-top: 14px;
+    margin-left: 300px;
+}
+
+
+/*------------------------card items---------------------------*/
+
+.card {
+    box-sizing: border-box;
+    position: absolute;
+    width: 73%;
+    height: 89vh;
+    left: 250px;
+    top: 65px;
+    background: #FFFFFF;
+    border: 1px solid #ACACAC;
+    border-radius: 24px;
+}
+
+.back-arrow {
+    width: 25px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 9px;
+    background: transparent;
+}
+
+.add {
+    position: absolute;
+    width: 388px;
+    height: 20px;
+    left: 300px;
+    top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.line {
+    position: relative;
+    width: 88%;
+    top: 35px;
+    left: 52px;
+}
+
+.order {
+    position: absolute;
+    width: 123px;
+    height: 35px;
+    left: 20px;
+    top: 95px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.rectengle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 50px;
+    top: 110px;
+    background: #EDECEC;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    font-size: 1em;
+    padding-left: 8px;
+}
+
+.unique {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 330px;
+    top: 93px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.rect1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 330px;
+    top: 108px;
+    background: #EDECEC;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    font-size: 1em;
+    padding-left: 8px;
+}
+
+.client {
+    position: absolute;
+    width: 188px;
+    height: 45px;
+    left: 0px;
+    top: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 45px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.email {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 205px;
+    top: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.rect2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 50px;
+    top: 175px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    font-size: 1em;
+    padding-left: 8px;
+}
+
+.rect3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 330px;
+    top: 175px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    font-size: 1em;
+    padding-left: 8px;
+}
+
+.whatsapp {
+    position: absolute;
+    width: 123px;
+    height: 45px;
+    left: 35px;
+    top: 230px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+#countries {
+    position: absolute;
+    top: 256px;
+    left: 50px;
+    width: 45px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    padding-left: 2px;
+}
+
+.input-tel {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding-left: 50px;
+    border-radius: 6px;
+}
+
+.assign {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 233px;
+    top: 228px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.Field_wrapper {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 200px;
+    top: 299px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.assign2 {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 520px;
+    top: 229px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.form-control-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 330px;
+    top: 244px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding-left: 50px;
+}
+
+.form-control-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 600px;
+    top: 245px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding-left: 40px;
+}
+
+.rupeelogo {
+    position: relative;
+    width: 25px;
+    height: 15px;
+    top: 288px;
+    left: 102px;
+}
+
+.price {
+    position: absolute;
+    height: 35px;
+    left: 55px;
+    top: 287px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+#countries-inr {
+    position: absolute;
+    top: 316px;
+    left: 50px;
+    width: 50px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    padding-left: 2px;
+}
+
+.input-Currency-data {
+    position: absolute;
+    top: 310px;
+    left: 50px;
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding-left: 50px;
+    border-radius: 6px;
+}
+
+.form-adv {
+    box-sizing: border-box;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 330px;
+    top: 313px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding-left: 47px;
+}
+
+.pay {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 230px;
+    top: 292px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.rect6 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 600px;
+    top: 308px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    font-size: 1em;
+    padding-left: 6px;
+}
+
+.advance {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 490px;
+    top: 293px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.sub {
+    position: absolute;
+    width: 188px;
+    height: 45px;
+    left: 15px;
+    top: 352px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 45px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.provide {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 265px;
+    top: 363px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.form-sub {
+    box-sizing: border-box;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 50px;
+    top: 385px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding-left: 20px;
+}
+
+.md-form {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 330px;
+    top: 385px;
+}
+
+.md-textarea {
+    width: 300px;
+    height: 90px;
+}
+
+.btn-light {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 735px;
+    top: 470px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-light:hover {
+    color: white;
+    background-color: rgb(17, 20, 15);
+}
+
+.btn-success {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 840px;
+    top: 470px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-success:hover {
+    color: white;
+    background-color: rgb(17, 20, 15);
+}
+
+.btn-attachlogo {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 50px;
+    top: 450px;
+    font-size: 15px;
+    color: black;
+    background-color: #EDECEC;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.img-aatach-logo {
+    position: relative;
+    top: 417px;
+    left: 55px;
+}
+
+.btn-attachlogo:hover {
+    color: white;
+    background-color: rgb(17, 20, 15);
+}
+
+.attachlogo {
+    width: 30px;
+    height: 30px;
+}
+
+.form-calender {
+    width: 200px;
+    height: 25px;
+    top: 300px;
+    left: 650px;
+    border: 4px solid red;
+}
+
+/* assignments page code start from here */
+
+.right-side {
+    margin-left: 16rem;
+    letter-spacing: 1px;
+}
+
+.gap {
+    margin-top: 14px;
+}
+
+.assign-status {
+    width: 10rem;
+    padding: 7px 7px 7px 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1.2px solid #DBDBDB;
+    font-weight: 700;
+    box-shadow: #DADADA !important;
+    outline: none;
+}
+
+.same-css {
+    margin-left: 14px;
+}
+
+.assign-attachment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-attachment {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.add-assign {
+    background: #008000;
+    padding: 14px 23px 14px 39px;
+    margin-right: 80px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    color: white;
+}
+
+.plus {
+    font-size: 30px;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -23px;
+}
+
+.assign-display {
+    display: none;
+}
+
+.table-start {
+    margin-left: 14rem;
+
+
+}
+
+.header {
+    font-size: 14px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: inherit;
+}
+
+.heading-assign {
+    font-size: 14px;
+    text-align: center;
+    font-family: inherit;
+}
+
+/* .assign-table{
+    background: white;
+    padding: 11px 0px 11px 0px;
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #DADADA;
+} */
+.assign-table {
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 31px;
+    width:96%;
+}
+
+td,
+th {
+    padding: 8px;
+}
+
+.header-name {
+    background: white;
+
+}
+
+.table-data {
+    /* border:1px solid #DBDBDB; */
+    /* border-bottom:1px solid #DBDBDB; */
+}
+
+.assign-row {
+    width: 7rem;
+    padding: 7px 7px 7px 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1.2px solid #DBDBDB;
+    font-weight: 700;
+    box-shadow: #DADADA !important;
+    outline: none;
+}
+
+.multiselect {
+    width: auto;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+
+#checkboxes label {
+    display: block;
+}
+
+#checkboxes label:hover {
+    background-color: #1e90ff;
+}
+
+.select-option {
+    width: 10rem;
+    padding: 7px 7px 7px 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1.2px solid #DBDBDB;
+    font-weight: 700;
+    box-shadow: #DADADA !important;
+    outline: none;
+
+}
+
+#checkboxes {
+    background: white;
+}
+
+.hide-data {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.assign-same-css {
+    display: flex !important;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+#same-id {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+input[type='checkbox'] {
+    margin-top: 3px;
+}
+
+.field-choose {
+    margin-left: 48px;
+}
+
+.field-second-row {
+    margin-left: 2px;
+    white-space: nowrap;
+}
+
+#price {
+    margin: 13px 2px 0px 4px;
+}
+
+#price-id {
+    margin: 13px 2px 0px -2px;
+}
+
+.field-second {
+    margin-left: 15px;
+}
+
+.choose-options,
+.close-options {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background: white;
+    width: fit-content;
+    padding: 8px 6px 8px 9px;
+    border-radius: 7px;
+    box-shadow: 1px solid grey;
+    border: 1.2px solid #DBDBDB;
+    width: 141px;
+    margin-top: 17px;
+    margin-bottom: 11px;
+}
+
+.selected-items {
+    background: white;
+    padding: 5px 1px 8px 10px;
+    border-radius: 11px;
+    display: none;
+}
+
+.first_option {
+    margin-left: 7px;
+}
+
+.table-data-here {
+    border-bottom: 2px solid #DBDBDB;
+    background: white;
+    font-size: 15px;
+}
+
+.table-head {
+    border-bottom: 13px solid #EDECEC;
+}
+
+/* assignment page code ends here */
+/* overview page code start here */
+.overview-start {
+    margin-left: 17rem;
+
+}
+
+.overview-status {
+    width: 5rem;
+    padding: 7px 0px 7px 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1.2px solid #DBDBDB;
+    font-weight: 700;
+    box-shadow: #DADADA !important;
+    outline: none;
+}
+
+.overview-sub {
+    display: flex;
+    justify-content: space-between;
+}
+.header-sub{
+    display: flex;
+    margin-top: 44px;
+}
+.header-left{
+    width: 60rem;
+    background: red;
+    height: 17rem;
+}
+.header-right{
+    width: 29rem;
+    background: blue;
+}
+.over-assign{
+    font-size: 11px;
+    float: left;
+}
+.over-date{
+    font-size: 11px;
+    float: right;
+    color: #7A7A7A;
+}
+.overview-card{
+    width: 13rem;
+    background: white;
+    border: 1px solid #DBDBDB;
+    height: 15px;
+}
+
+/* overview page code ends here */
