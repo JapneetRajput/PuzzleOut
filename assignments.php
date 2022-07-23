@@ -92,7 +92,7 @@ else{
         <div class="chield">
             <a href="overview.php" class="overview">Overview</a>
             <a href="assignments.php" class="assignment">Assignment</a>
-            <a href="#" class="writer">Writers</a>
+            <a href="writer.php" class="writer">Writers</a>
             <a href="#" class="chart">Chart/queries</a>
             <a href="#" class="payment">payment</a>
             <a href="#" class="other">OTHER</a>
@@ -126,7 +126,7 @@ else{
 
                 </select>
             </div>
-            <div class="add-attachment"><a href="welcome.php" style="text-decoration:none">
+            <div class="add-attachment"><a href="addAssignment1.php" style="text-decoration:none">
                 <span class="add-assign"><span class="plus">+</span> Add Assignment</span></a>
             </div>
         </div>

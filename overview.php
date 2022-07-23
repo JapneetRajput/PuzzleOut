@@ -189,7 +189,7 @@
             <!-- first row code here -->
             <div class="row">
               <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12  overview-attachment-section">
-                <div class="overview-attachment"><i class="bi bi-plus"></i><a href="welcome.php" style="text-decoration:none;color:white;">Add Assignment</a> </div>
+                <div class="overview-attachment"><i class="bi bi-plus"></i><a href="addAssignment1.php" style="text-decoration:none;color:white;">Add Assignment</a> </div>
               </div>
 
             </div>
