@@ -6,7 +6,7 @@ session_start();
 // $_SESSION["loggedin"] = '';
 if(isset($_SESSION['username']))
 {
-    header("location: welcome.php");
+    header("location: assignments.php");
     exit;
 }
 
