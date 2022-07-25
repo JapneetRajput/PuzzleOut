@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="clientReviews.css">
+    <link rel="stylesheet" href="clientFollowUpSheet.css">
     <title>Puzzle Out</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
@@ -131,86 +131,162 @@
         <div class="">
             <main class="content-wrapper">
                 <!-- right side -->
+                <div class="no-sense"></div>
                 <div class="client-follow-header pt-4">
                     <div class="container">
                         <div class="cfollow-header">
                             <a href="overview.php"><i class="bi bi-arrow-left follow-back-arrow"></i></a>
-                            <div class="cfollow-title">Client Reviews</div>
+                            <div class="cfollow-title">Client Follow-up Sheet</div>
                             <div class="c-blank-data">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        </div>
+                        <div class="c-second-head">
+                            <div>
+                                <button name="" id="" class="client-sheet-dropdown fields-event">Choose Fields
+                                </button><span style="color:red ;">**You can only select upto 5 fields at a time</span>
+                            </div>
+                            <div class="d-flex c-follow-search">
+                                <input type="text" class="form-control client-sheet-search"
+                                    placeholder="Client's name, country">
+                                <i class="bi bi-search c-search-icon"></i>
+                            </div>
+                        </div>
+                        <div class="cchoose-fields-option">
+                            <div class="row">
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div>
+                                        <input type="checkbox">
+                                        <span>Client's Name</span>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
+                                    <div>
+                                        <input type="checkbox">
+                                        <span>University/college name</span>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-5 col-sm-12 col-12">
+                                    <div>
+                                        <input type="checkbox">
+                                        <span>University/college Course name</span>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div>
+                                        <input type="checkbox">
+                                        <span>Country</span>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div>
+                                        <input type="checkbox">
+                                        <span>Email</span>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                    <div>
+                                        <input type="checkbox">
+                                        <span>Whatsapp Number</span>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div>
+                                        <input type="checkbox">
+                                        <span>Course Start Date</span>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
                         <!-- table -->
-                        <div class="c-list-details" style="overflow-x: scroll;margin-top: 44px;">
+                        <div class="c-list-details" style="overflow-x: scroll;margin-top: 25px;">
                             <div class="ctable-header">
-                                <div class="cclient-follow">Order ID</div>
-                                <div class="cuniversity-follow">Client Name</div>
-                                <div class="cuniversity-college">Reviews</div>
-                                <div class="ccourse-start">Writer Assigned</div>
+                                <div class="cclient-follow">Client Name</div>
+                                <div class="cuniversity-follow">University/College Name</div>
+                                <div class="cuniversity-college">University/College Course Name</div>
+                                <div class="ccountry-follow">Country</div>
+                                <div class="ccourse-start">Course start date&nbsp;<i class="bi bi-pencil-fill"></i>
+                                </div>
                             </div>
                             <div class="ctable-header-data">
                                 <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
                                 </div>
 
-
-
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="cclient-follow-data">Jaspreet Bumrah</div>
+                                    <div class="cuniversity-follow-data">Techno India Kolkata</div>
+                                    <div class="cuniversity-college-data">Masters In computer application</div>
+                                    <div class="ccountry-follow-data">Switzerland</div>
+                                    <div class="ccourse-start-data">16/06/2022</div>
+                                </div>
                             </div>
 
 
@@ -243,6 +319,27 @@
             $('.navbar-size').css('transform', 'translateX(-100%)');
             $('.new-navbar').removeClass('new-navbar');
         });
+        $(document).on('click', '.fields-event', function () {
+            $('.cchoose-fields-option').css('display', 'block');
+            $('.ctable-header-data').css('margin-top', '20px');
+            $('.ctable-header-data').css('height', '12rem');
+            $('.fields-event').addClass('cfields-event');
+            $('.fields-event').removeClass('fields-event');
+        });
+        $(document).on('click', '.cfields-event', function () {
+            $('.cchoose-fields-option').css('display', 'none');
+            $('.ctable-header-data').css('margin-top', '23px');
+            $('.ctable-header-data').css('height', '19rem');
+            $('.cfields-event').addClass('fields-event');
+            $('.cfields-event').removeClass('cfields-event');
+        });
+        if ($('.no-sense').css('display') == 'none') {
+            var sidebar = $('.cchoose-fields-option').first();
+            var main_body = $('.c-follow-search');
+
+            var sidebar_content = sidebar.html();
+            sidebar.insertBefore(main_body);
+        }
     </script>
 
 

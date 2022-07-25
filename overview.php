@@ -152,7 +152,7 @@
               <div class="leftsidebar-title">DASHBOARD</div>
               <div class="navbar-left-side-content">
                 <div class="contents-here overviewpage"><a href="overview.php" class="content-link ">Overview</a></div>
-                <div class="contents-here"><a href="assignments.php" class="content-link">Assignments</a></div>
+                <div class="contents-here"><a href="" class="content-link">Assignments</a></div>
                 <div class="contents-here"><a href="writer.php" class="content-link">Writers</a></div>
                 <div class="contents-here"><a href="" class="content-link">Chats/Queries</a></div>
                 <div class="contents-here"><a href="" class="content-link">Payments</a></div>
@@ -201,7 +201,7 @@
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 overview-cards-exist">
                       <div class="overview-cards">
                         <div class="all-cards">
-                          <a href="assignments.php" class="card-linked">Assignment Sheet</a>
+                          <a href="" class="card-linked">Assignment Sheet</a>
                         </div>
                       </div>
                     </div>
@@ -257,7 +257,7 @@
                   <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 resource-data">
                     <div class="overview-cards resource-section-card">
                       <div class="all-cards-resource">
-                        <a href="" class="card-linked">Subjects Covered</a>
+                        <a href="subjectsCovered.php" class="card-linked">Subjects Covered</a>
                       </div>
                     </div>
                   </div>
@@ -271,12 +271,12 @@
                   <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 resource-data">
                     <div class="overview-cards resource-section-card">
                       <div class="all-cards-resource client-review client client-follow">
-                        <a href="" class="card-linked">Client Follow Up Sheet</a>
+                        <a href="clientFollowUpSheet.php" class="card-linked">Client Follow Up Sheet</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 resource-data">
-                    <a href="order.php" style="text-decoration:none;color:white" class="card-linked"><div class="overview-cards resource-section-card ">
+                    <a href="ordersDelivered.php" style="text-decoration:none;color:white" class="card-linked"><div class="overview-cards resource-section-card ">
                       <div class="all-cards-resource client-review">
                         Orders to be delivered
                       </div>

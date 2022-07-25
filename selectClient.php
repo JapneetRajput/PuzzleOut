@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="clientReviews.css">
+    <link rel="stylesheet" href="selectClient.css">
     <title>Puzzle Out</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
@@ -98,9 +98,9 @@
                         <div class="leftsidebar-second-section">
                             <div class="leftsidebar-title">DASHBOARD</div>
                             <div class="navbar-left-side-content">
-                                <div class="contents-here overview-page"><a href="" class="content-link ">Overview</a>
+                                <div class="contents-here"><a href="" class="content-link ">Overview</a>
                                 </div>
-                                <div class="contents-here"><a href="" class="content-link">Assignments</a></div>
+                                <div class="contents-here overview-page"><a href="" class="content-link">Assignments</a></div>
                                 <div class="contents-here"><a href="" class="content-link">writers</a></div>
                                 <div class="contents-here "><a href="" class="content-link">Chats/Queries</a></div>
                                 <div class="contents-here"><a href="" class="content-link">Payments</a></div>
@@ -133,91 +133,84 @@
                 <!-- right side -->
                 <div class="client-follow-header pt-4">
                     <div class="container">
-                        <div class="cfollow-header">
-                            <a href="overview.php"><i class="bi bi-arrow-left follow-back-arrow"></i></a>
-                            <div class="cfollow-title">Client Reviews</div>
-                            <div class="c-blank-data">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="client-heading">
+                            <a href="overview.php" class="back-arrow"><i class="bi bi-arrow-left"></i></a>
+                            <div class="addclient-title">Add New Client</div>
+                            <div class="none">&nbsp;</div>
+                            <div>&nbsp;</div>
                         </div>
-
-                        <!-- table -->
-                        <div class="c-list-details" style="overflow-x: scroll;margin-top: 44px;">
-                            <div class="ctable-header">
-                                <div class="cclient-follow">Order ID</div>
-                                <div class="cuniversity-follow">Client Name</div>
-                                <div class="cuniversity-college">Reviews</div>
-                                <div class="ccourse-start">Writer Assigned</div>
+                        <hr>
+                        <div class="client-fields mt-4">
+                            <div class="row">
+                                <div class="col-xxl-4 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-12 mobile-common-css">
+                                    <label for="">Client Name<sup class="mandatory">*</sup></label>
+                                    <input type="text" class="form-control cleint-name-field input-css">
+                                </div>
+                                <div
+                                    class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-12 col-12 client-email mobile-common-css">
+                                    <label for="">Email<sup class="mandatory">*</sup></label>
+                                    <input type="email" class="form-control input-css">
+                                </div>
                             </div>
-                            <div class="ctable-header-data">
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                        </div>
+                        <div class="client-fields common-css-for-row">
+                            <div class="row">
+                                <div class="col-xxl-4 col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 mobile-common-css">
+                                    <label for="">Country<sup class="mandatory">*</sup></label>
+                                    <select name="" id="" class="form-control input-css client-select-arrow">
+                                        <option value="" class="input-css" hidden>Select Country</option>
+                                        <option value="">New York</option>
+                                    </select>
                                 </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                <div
+                                    class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12 client-email mobile-common-css">
+                                    <label for="">Whatsapp Number<sup class="mandatory">*</sup></label>
+                                    <div>
+                                        <select name="" id=""
+                                            class="form-control select-whatsapp input-css client-select-arrow">
+                                            <option value="" hidden style="color: red; font-weight:600;">
+                                                &nbsp;&nbsp;+&nbsp;&nbsp;</option>
+                                        </select>
+                                        <input type="number" class="form-control whatsapp-number input-css"
+                                            placeholder="Enter a 10-digit phone number">
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-
-
-
                             </div>
 
-
                         </div>
+                        <div class="client-fields common-css-for-row">
+                            <div class="row">
+                                <div class="col-xxl-4 col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 mobile-common-css">
+                                    <label for="">University/College</label>
+                                    <input type="text" class="form-control cleint-name-field input-css"
+                                        placeholder="for eg. University of Bristol">
+                                </div>
+                                <div
+                                    class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12 client-email mobile-common-css">
+                                    <label for="">University Course Name</label>
+                                    <input type="email" class="form-control input-css"
+                                        placeholder="for eg. University of Bristol">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-fields common-css-for-row">
+                            <div class="row">
+                                <div class="col-xxl-4 col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 mobile-common-css">
+                                    <label for="">University Course Code</label>
+                                    <input type="text" class="form-control cleint-name-field input-css course-code"
+                                        placeholder="for eg. MSC775S">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-5">
+                            <button class="btn btn assign-next">Discard</button>
+                            <a href=""><button class="btn btn-success assign-next">Next</button></a>
+                        </div>
+
+
+
 
                         <!-- table end -->
-                        <!-- <div class="c-choose-fields">dddddddddddddddddddddddddd</div> -->
                     </div>
                 </div>
                 <!--end right side -->

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="clientReviews.css">
+    <link rel="stylesheet" href="ordersDelivered.css">
     <title>Puzzle Out</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
@@ -135,7 +135,7 @@
                     <div class="container">
                         <div class="cfollow-header">
                             <a href="overview.php"><i class="bi bi-arrow-left follow-back-arrow"></i></a>
-                            <div class="cfollow-title">Client Reviews</div>
+                            <div class="cfollow-title">Orders to be Delivered</div>
                             <div class="c-blank-data">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                         </div>
 
@@ -144,69 +144,138 @@
                             <div class="ctable-header">
                                 <div class="cclient-follow">Order ID</div>
                                 <div class="cuniversity-follow">Client Name</div>
-                                <div class="cuniversity-college">Reviews</div>
+                                <div class="cuniversity-college">Due Date</div>
+                                <div class="ccountry-follow">Price (INR)</div>
+                                <div class="ccourse-start">Payment Status</div>
+                                <div class="ccountry-follow">If Advance</div>
                                 <div class="ccourse-start">Writer Assigned</div>
                             </div>
                             <div class="ctable-header-data">
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-same"><i class="bi bi-dot payment-same"></i>Paid</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">₹5000</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-unpaid"><i class="bi bi-dot payment-unpaid"></i>Unpaid</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">-</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-advance"><i class="bi bi-dot payment-advance"></i>Advance</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">₹5000</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-same"><i class="bi bi-dot payment-same"></i>Paid</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">₹5000</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-unpaid"><i class="bi bi-dot payment-unpaid"></i>Unpaid</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">-</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-advance"><i class="bi bi-dot payment-advance"></i>Advance</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">₹5000</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-same"><i class="bi bi-dot payment-same"></i>Paid</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">₹5000</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-unpaid"><i class="bi bi-dot payment-unpaid"></i>Unpaid</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">-</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
                                     <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-college-data">
+                                        <span>16/07/2021</span>
+                                        <span style="color: red;">4:00PM</span>
+                                    </div>
+                                    <div class="cclient-follow-price">₹ <span>10000</span></div>
+                                    <div class="ccourse-start-payment">
+                                        <div class="inside-payment payment-advance"><i class="bi bi-dot payment-advance"></i>Advance</div>
+                                    </div>
+                                    <div class="cclient-follow-advance">₹5000</div>
+                                    <div class="ccourse-start-writerassign">Monahar verma</div>
                                 </div>
 
 

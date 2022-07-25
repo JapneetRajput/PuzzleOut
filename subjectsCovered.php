@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="clientReviews.css">
+    <link rel="stylesheet" href="subjectsCovered.css">
     <title>Puzzle Out</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
@@ -135,79 +135,79 @@
                     <div class="container">
                         <div class="cfollow-header">
                             <a href="overview.php"><i class="bi bi-arrow-left follow-back-arrow"></i></a>
-                            <div class="cfollow-title">Client Reviews</div>
+                            <div class="cfollow-title">Subjects Covered</div>
                             <div class="c-blank-data">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div
+                                class="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12  subject-cover-first">
+                                <span class="subject-heading">TOP SUBJECTS</span>
+                                <div class="bg-white mt-3">
+                                   <div class="text-right">
+                                    <select name="" id="" >
+                                        <option value="">This week</option>
+                                    </select>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-5 col-xl-6 col-lg-5 col-md-6 col-sm-12 col-12 top-earning">
+                                <span class="subject-heading">TOP EARNING SUBJECTS</span>
+                                <div class="bg-white mt-3">
+                                    <div class="text-right">
+                                        <select name="" id="" >
+                                            <option value="">This week</option>
+                                        </select>
+                                       </div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <!-- table -->
                         <div class="c-list-details" style="overflow-x: scroll;margin-top: 44px;">
                             <div class="ctable-header">
-                                <div class="cclient-follow">Order ID</div>
-                                <div class="cuniversity-follow">Client Name</div>
-                                <div class="cuniversity-college">Reviews</div>
-                                <div class="ccourse-start">Writer Assigned</div>
+                                <div class="cclient-follow">Subject Code</div>
+                                <div class="cuniversity-follow">Subject Name</div>
+                                <div class="cuniversity-college">No. of Assignments Done</div>
                             </div>
                             <div class="ctable-header-data">
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-follow-data">Computer Networking</div>
+                                    <div class="cclient-follow-price">458</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-follow-data">Computer Networking</div>
+                                    <div class="cclient-follow-price">458</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-follow-data">Computer Networking</div>
+                                    <div class="cclient-follow-price">458</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-follow-data">Computer Networking</div>
+                                    <div class="cclient-follow-price">458</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-follow-data">Computer Networking</div>
+                                    <div class="cclient-follow-price">458</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-follow-data">Computer Networking</div>
+                                    <div class="cclient-follow-price">458</div>
                                 </div>
                                 <div class="d-flex">
                                     <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
+                                    <div class="cuniversity-follow-data">Computer Networking</div>
+                                    <div class="cclient-follow-price">458</div>
                                 </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="cclient-follow-data">12345678</div>
-                                    <div class="cuniversity-follow-data">Jaspreet Bumrah</div>
-                                    <div class="cclient-follow-price">The work was on time and was perfectly done.</div>
-                                    <div class="cclient-follow-advance">Marshal Mathers</div>
-                                </div>
+                                
 
 
 
